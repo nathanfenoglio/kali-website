@@ -24,3 +24,7 @@ yarn-error.log*
 
 # adding /backend because not using
 /backend
+
+# adding 
+package.json
+yarn.lock
