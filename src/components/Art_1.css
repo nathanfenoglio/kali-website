@@ -10,6 +10,16 @@
     color: white;
 }
 
+.art-title{
+    color: red;
+    font-size: 5vw;
+}
+
+.art-image{
+    width: 50vw;
+    height: 40vw;
+}
+
 @media(max-width: 600px){
     .page-title{
         font-size: 15vw;
