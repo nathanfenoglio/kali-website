@@ -1,0 +1,18 @@
+.art_1-container{
+    border: 0.5em dotted brown;
+    margin-top: 10em;
+    width: auto;
+    overflow: hidden;
+}
+
+.page-title{
+    font-size: 10vw;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .page-title{
+        font-size: 15vw;
+        color: white;
+    }
+}
