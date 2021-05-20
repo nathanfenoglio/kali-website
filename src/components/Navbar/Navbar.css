@@ -5,6 +5,7 @@
 	justify-content: center;
 	align-items: center;
 	width: 100%;
+	/*navbar fixed or not*/
 	position: fixed;
 	
 }
@@ -62,7 +63,13 @@
 
 @media screen and (max-width: 600px){
 	.NavbarItems{
+		/*navbar fixed or not*/
 		position: fixed;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
 	}
 	
 	.nav-menu{
