@@ -25,6 +25,6 @@ yarn-error.log*
 # adding /backend because not using
 /backend
 
-# adding 
-package.json
-yarn.lock
+# adding, removing, I'm having problems with merging 
+#package.json
+#yarn.lock
