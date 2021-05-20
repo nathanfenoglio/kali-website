@@ -66,6 +66,7 @@
 		/*navbar fixed or not*/
 		position: fixed;
 
+		/*adding the below does not seem to have fixed the menu being off of the screen on mobile in vertical orientation*/
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -85,7 +86,8 @@
 	}
 	
 	.nav-menu.active{
-		background: #6668f4;
+		/*background: #6668f4;*/
+		background: green;
 		left: 0;
 		opacity: 1;
 		height: 1200px;
