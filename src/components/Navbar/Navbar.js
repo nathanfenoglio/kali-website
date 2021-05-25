@@ -13,7 +13,7 @@ class Navbar extends Component{
     render(){
         return(
             <nav className="NavbarItems">
-                <h1 style={{fontSize:"4vw"}} className="navbar-logo">Kali Esmeralda Fenoglio</h1>
+                <h1 style={{fontSize:"4vw"}} className="navbar-logo">Kali Fenoglio</h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
