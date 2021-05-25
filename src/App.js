@@ -7,6 +7,7 @@ import './App.css';
 
 import Navbar from "./components/Navbar/Navbar";
 import Art_1 from "./components/Art_1";
+import Art_2 from "./components/Art_2";
 
 class App extends Component{
 	render(){
@@ -15,9 +16,11 @@ class App extends Component{
           <div className="App">
             <Navbar />
             <Route path="/Art_1" exact component={Art_1}/>
-
+            <Route path="/Art_2" exact component={Art_2}/>
+            
           </div>
         </Router>
+        
 		  );
 	}
 }

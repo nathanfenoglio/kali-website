@@ -1,4 +1,4 @@
-.art_1-container{
+.art_2-container{
     /*border: 0.5em dotted brown;*/
     /*margin-top: 10em;*//*was putting space between navbar and top of page that I didn't want*/
     width: auto;
@@ -9,16 +9,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-}
-
-.page-title{
-    font-size: 10vw;
-    color: white;
-}
-
-.art-title{
-    color: red;
-    font-size: 5vw;
 }
 
 .art-image{
@@ -33,9 +23,8 @@
     margin-top: 23vw;
 }
 
-@media(max-width: 600px){
-    .page-title{
-        font-size: 15vw;
-        color: white;
-    }
+.text-box{
+    color: blueviolet;
+    font-size: 5vw;
+    margin-top: 23vw;
 }
